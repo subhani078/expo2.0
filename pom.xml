@@ -79,9 +79,12 @@
         <activeByDefault>true</activeByDefault>
       </activation>
       <properties>
-        http://localhost:9020
+        sonar.web.port=9020
+        
         <sonar.host.url>http://localhost:9020</sonar.host.url>
       </properties>
     </profile>
   </profiles>
 </project>
+
+
