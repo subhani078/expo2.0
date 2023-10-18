@@ -26,6 +26,21 @@
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
+
+
+  <profiles>
+  <profile>
+    <id>sonar</id>
+    <activation>
+      <activeByDefault>true</activeByDefault>
+    </activation>
+    <properties>
+      http://localhost:9020
+      <sonar.host.url>http://localhost:9020</sonar.host.url>
+    </properties>
+  </profile>
+</profiles>
+
     <properties>
         <!-- Maven -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
