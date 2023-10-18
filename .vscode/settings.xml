@@ -1,0 +1,12 @@
+<profiles>
+  <profile>
+    <id>sonar</id>
+    <activation>
+      <activeByDefault>true</activeByDefault>
+    </activation>
+    <properties>
+      http://localhost:9020
+      <sonar.host.url>http://localhost:9020</sonar.host.url>
+    </properties>
+  </profile>
+</profiles>
