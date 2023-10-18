@@ -72,19 +72,7 @@
     </pluginManagement>
   </build>
 
-  <profiles>
-    <profile>
-      <id>sonar</id>
-      <activation>
-        <activeByDefault>true</activeByDefault>
-      </activation>
-      <properties>
-        sonar.web.port=9020
-        
-        <sonar.host.url>http://localhost:9020</sonar.host.url>
-      </properties>
-    </profile>
-  </profiles>
+  
 </project>
 
 
